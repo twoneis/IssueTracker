@@ -13,8 +13,6 @@ namespace IssueTracker.Data
         {
 
         }
-
-        public DbSet<Category> Category { get; set; }
         public DbSet<Issue> Issues { get; set; }
     }
 }
